@@ -5,6 +5,6 @@ describe("probaar metodo suma", () => {
   });
 
   test("add 1 + 2 equal 5", () => {
-    expect(sum(5, 7)).toBe(10);
+    expect(sum(2, 2)).toBe(3);
   });
 });
