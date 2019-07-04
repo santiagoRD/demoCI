@@ -3,4 +3,8 @@ describe("probaar metodo suma", () => {
   test("add 1 + 2 equal 3", () => {
     expect(sum(1, 2)).toBe(3);
   });
+
+  test("add 1 + 2 equal 5", () => {
+    expect(sum(5, 7)).toBe(10);
+  });
 });
